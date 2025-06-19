@@ -10,5 +10,21 @@ layout: default
 
 <h3>Invited Speakers</h3>
 <br><br>
-<h5> To be announced</h5>
+
+<center>
+<div style="text-align: center;">
+<div id="speakers" class="row">
+<h2 style="text-align: center;">Speakers</h2>
+<div class="break"></div>
+<div style="text-align: center;">
+{%- for person in site.data.speakers -%}
+<div class="person">
+  <img src="{{ person.image }}" height="170px" /><div style="height:12px;"></div>
+   <a href="{{ person.url | relative_url }}">{{ person.name }}</a> <div style="height:4px;"></div>
+   <span>{{ person.title | replace: '&', '<div style="height:4px;"></div>' }}</span>
+</div>
+{%- endfor -%}
+</div>
+</div></div>
+</center>
 
