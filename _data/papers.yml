@@ -40,3 +40,48 @@
 - title: "VideoAgent: Self-Improving Video Generation for Embodied Planning"
   authors: Achint Soni, Sreyas Venkataraman, Abhranil Chandra, Sebastian Fischmeister, Percy Liang, Bo Dai, Sherry Yang
   link: https://openreview.net/pdf?id=Z3AzZPCiRF
+- title: "Towards Continual No-Regret Learning"
+  authors: David Sychrovský, Martin Balko, Martin Schmid, Michael Bowling
+  link: https://openreview.net/pdf?id=3QTZ9h2EsE
+- title: "Exploration for the Efficient Deployment of Reinforcement Learning Agents"
+  authors: Max Rudolph, Siddhant Agarwal, Omer Gottesman, Amy Zhang, Akhil Bagaria, Sohrab Andaz, Udaya Ghai, Carson Eisenach
+  link: https://openreview.net/pdf?id=E3zbXrF2Xq
+- title: "Flattening Hierarchies with Policy Bootstrapping"
+  authors: John Luoyu Zhou, Jonathan C. Kao
+  link: https://openreview.net/pdf?id=iDxTYJB0FP
+- title: "Motion-Planning via Contrastive Reinforcement Learning and Monte-Carlo Tree Search"
+  authors: Kellen Kanarios, Lei Ying
+  link: https://openreview.net/pdf?id=G1xxzh9Q22
+- title: "Towards An Option Basis To Optimize All Rewards"
+  authors: Siddarth Chandrasekar, Marlos C. Machado
+  link: https://openreview.net/pdf?id=93kcaZhYgG
+- title: "The World Is Bigger: A Computationally-Embedded Perspective on the Big World Hypothesis"
+  authors: Alex Lewandowski, Aditya A. Ramesh, Edan Meyer, Dale Schuurmans, Marlos C. Machado
+  link: https://openreview.net/pdf?id=pDR4GXgpcY
+- title: "InfoQuest: Evaluating Multi-Turn Dialogue Agents for Open-Ended Conversations with Hidden Context"
+  authors: Bryan Lincoln Marques de Oliveira, Bruno Brandão, Luana Guedes Barros Martins, Luckeciano Carvalho Melo
+  link: https://openreview.net/pdf?id=YalsDaobBg
+- title: "A Unified Framework for Unsupervised Reinforcement Learning Algorithms"
+  authors: Siddhant Agarwal, Caleb Chuck, Harshit Sikchi, Jiaheng Hu, Max Rudolph, Scott Niekum, Peter Stone, Amy Zhang
+  link: https://openreview.net/pdf?id=tQtO75p5HA
+- title: "Unsupervised Skill Discovery in Non-Markov Settings with Empowerment"
+  authors: Andrew Levy, George Konidaris
+  link: https://openreview.net/pdf?id=yZmp2nu8an
+- title: "Regularized Latent Dynamics Prediction is a Strong Baseline For Behavioral Foundation Models"
+  authors: Pranaya Jajoo, Harshit Sikchi, Siddhant Agarwal, Amy Zhang, Scott Niekum, Martha White
+  link: https://openreview.net/pdf?id=JIL0IoDzn7
+- title: "MR-CRL: Leveraging Predictive Representations for Contrastive Goal-Conditioned Reinforcement Learning"
+  authors: Muhammad Qasim Ali, Winnie Trandinh, Howard Nguyen-Huu, Alexander Wong
+  link: https://openreview.net/pdf?id=oqGLOVJwlv
+- title: "Should We Ever Prefer Decision Transformer for Offline Reinforcement Learning?"
+  authors: Yumi Omori, Zixuan Dong, Keith W. Ross
+  link: https://openreview.net/pdf?id=VX0a61Q1Su
+- title: "Curiosity-Driven Exploration via Temporal Contrastive Learning"
+  authors: Faisal Mohamed, Catherine Ji, Benjamin Eysenbach, Glen Berseth
+  link: https://openreview.net/pdf?id=gqjT7g5ZRa
+- title: "Mixture of Autoencoder Experts Guidance using Unlabeled and Incomplete Data for Exploration in Reinforcement Learning"
+  authors: Elias Malomgré, Pieter Simoens
+  link: https://openreview.net/pdf?id=thCvCNpSkd
+- title: "Fine-tuning Behavioral Cloning Policies with Preference-Based Reinforcement Learning"
+  authors: Mael Macuglia, Paul Friedrich, Giorgia Ramponi
+  link: https://openreview.net/pdf?id=vWqkLA0uzm
