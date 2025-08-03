@@ -5,7 +5,7 @@ layout: default
 <div id="program">
 
 <div class="row">
-<p>The paper pdf can be accessed by clicking on the title of the paper. For incorrect links / fixes, please create a pull request at <url>https://github.com/rlbrew-workshop/rlbrew-workshop.github.io </url>.</p>
+<p>The paper can be accessed by clicking on the title of the paper.</p>
 <!-- <p>The Zoom meeting rooms will be open only during the poster session timeslots (see the <a href="/schedule.html">Schedule</a>), during which authors will join the meeting rooms to allow you to ask them questions face-to-face. We encourage you to first watch the presentation associated with the paper, and then join the Zoom meeting room to ask questions and engage in further discussion.</p> -->
 </div>
 
@@ -82,13 +82,11 @@ Research
 <tbody> -->
 
 <tr></tr>
-{% for paper in session.papers %}
-
-{% if paper.kind == "poster" %}
+{% for paper in site.data.papers %}
 <tr>
 
 <td>
-  <span><b><a href="{{ paper.camera_ready }}">{{ paper.title }}</a></b></span>
+  <span><b>{{ paper.title }}</b></span>
 
 </td>
 
@@ -96,6 +94,10 @@ Research
 
 <td>
 {{ paper.authors }}
+</td>
+
+<td>
+  <a href="{{ paper.link }}">{{ paper.link }}</a>
 </td>
 
 </tr>
