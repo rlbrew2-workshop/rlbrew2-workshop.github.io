@@ -1,42 +1,42 @@
-- title: Offline RLAIF: Piloting VLM Feedback for RL via SFO
+- title: "Offline RLAIF: Piloting VLM Feedback for RL via SFO"
   authors: Jacob Beck
   link: https://openreview.net/pdf?id=XuW9VGTz1w
-- title: Provably Learning from Language Feedback
+- title: "Provably Learning from Language Feedback"
   authors: Wanqiao Xu, Allen Nie, Ruijie Zheng, Aditya Modi, Adith Swaminathan, Ching-An Cheng
   link: https://openreview.net/pdf?id=2wlpsUAOrT
-- title: Provably Learning from Language Feedback
+- title: "Provably Learning from Language Feedback"
   authors: Wanqiao Xu, Allen Nie, Ruijie Zheng, Aditya Modi, Adith Swaminathan, Ching-An Cheng
   link: https://openreview.net/pdf?id=2wlpsUAOrT
-- title: Reward Learning through Ranking Mean Squared Error
+- title: "Reward Learning through Ranking Mean Squared Error"
   authors: Chaitanya Kharyal, Calarina Muslimani, Matthew E. Taylor
   link: https://openreview.net/pdf?id=vFP4e54pH5
-- title: Which Rewards Matter? Reward Selection for Reinforcement Learning from Limited Feedback
+- title: "Which Rewards Matter? Reward Selection for Reinforcement Learning from Limited Feedback"
   authors: Shreyas Chaudhari, Renhao Zhang, Philip S. Thomas, Bruno Castro da Silva
   link: https://openreview.net/pdf?id=h8UQlBDV0P
-- title: Learning Equilibria from Data: Provably Efficient Multi-Agent Imitation Learning
+- title: "Learning Equilibria from Data: Provably Efficient Multi-Agent Imitation Learning"
   authors: Till Freihaut, Luca Viano, Volkan Cevher, Matthieu Geist, Giorgia Ramponi
   link: https://openreview.net/pdf?id=QjJwxTecLc
-- title: Improving LLM-Generated Code Quality with GRPO
+- title: "Improving LLM-Generated Code Quality with GRPO"
   authors: Maxime Robeyns, Laurence Aitchison
   link: https://openreview.net/pdf?id=wdJT3KNCv6
-- title: A Geometric Lens on RL Environment Complexity Based on Ricci Curvature
+- title: "A Geometric Lens on RL Environment Complexity Based on Ricci Curvature"
   authors: Ali Saheb Pasand, Pablo Samuel Castro, Pouya Bashivan
   link: https://openreview.net/pdf?id=9xPs0jKRZA
-- title: Implicit vs. Explicit Offline Inverse Reinforcement Learning: A Credit Assignment Perspective
+- title: "Implicit vs. Explicit Offline Inverse Reinforcement Learning: A Credit Assignment Perspective"
   authors: Ran Wei, Harshit Sikchi, Amy Zhang
   link: https://openreview.net/pdf?id=X3YuA7z2iX
-- title: Using Discrete Overlapping Partitions for Count-Based Exploration
+- title: "Using Discrete Overlapping Partitions for Count-Based Exploration"
   authors: Mahshid Rahmani Hanzaki, Michael Bowling
   link: https://openreview.net/pdf?id=1FqDUpTd9i
-- title: Self-Predictive Representations for Combinatorial Generalization in Behavioral Cloning
+- title: "Self-Predictive Representations for Combinatorial Generalization in Behavioral Cloning"
   authors: Daniel Lawson, Adriana Hugessen, Charlotte Cloutier, Glen Berseth, Khimya Khetarpal
   link: https://openreview.net/pdf?id=G7X1hsBLNl
-- title: Environment Agnostic Goal-Conditioning, A Study of Reward-Free Autonomous Learning
+- title: "Environment Agnostic Goal-Conditioning, A Study of Reward-Free Autonomous Learning"
   authors: Hampus Åström, Elin A. Topp, Jacek Malec
   link: https://openreview.net/pdf?id=RfJbVuHCgx
-- title: Zero-Shot Constraint Satisfaction with Forward- Backward Representations
+- title: "Zero-Shot Constraint Satisfaction with Forward-Backward Representations"
   authors: Adriana Hugessen, Harley Wiltzer, Cyrus Neary, Amy Zhang, Glen Berseth
   link: https://openreview.net/pdf?id=6OxKvduBUP
-- title: VideoAgent: Self-Improving Video Generation for Embodied Planning
+- title: "VideoAgent: Self-Improving Video Generation for Embodied Planning"
   authors: Achint Soni, Sreyas Venkataraman, Abhranil Chandra, Sebastian Fischmeister, Percy Liang, Bo Dai, Sherry Yang
   link: https://openreview.net/pdf?id=Z3AzZPCiRF
