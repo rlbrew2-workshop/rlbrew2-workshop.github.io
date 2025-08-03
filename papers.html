@@ -1,145 +1,57 @@
 ---
 layout: default
 ---
-
-<div id="program">
-
-<div class="row">
-<p>The paper can be accessed by clicking on the title of the paper.</p>
-<!-- <p>The Zoom meeting rooms will be open only during the poster session timeslots (see the <a href="/schedule.html">Schedule</a>), during which authors will join the meeting rooms to allow you to ask them questions face-to-face. We encourage you to first watch the presentation associated with the paper, and then join the Zoom meeting room to ask questions and engage in further discussion.</p> -->
-</div>
-
-<!-- {% for session in site.data.sessions %}
-<div class="row">
-<a name="session-{{ session.id }}"></a>
-<h3>{{ session.title }}</h3>
-<table class="table table-striped">
-<thead>
-     <tr>
-          <th> Oral Presentations (PDF) </th>
-          <th>Authors</th>
-          <th>Track</th>
-          <th>Video</th>
-</thead>
-<tbody> 
--->
-
-
-<!-- {% for paper in session.papers %} -->
-
-<!-- {% if paper.kind == "oral" %}
-<tr>
-
-<td>
-<span><b><a href="{{ paper.camera_ready }}">{{ paper.title }}</a></b></span>
-</td>
-
-
-
-
-<td>
-{{ paper.authors }}
-</td> -->
-
-<!-- <td>
-{% if paper.track == "blue_sky" %}
-Blue Sky Ideas
-{% elsif paper.track == "research" %}
-Research
-{% endif %}
-</td>
- -->
-<!-- <td>
-{% if paper.camera_ready %}
-<a href="/pdf/BAICS_{{ paper.id }}.pdf" target="_blank">PDF</a>
-{% endif %}
-</td> -->
-
-<!-- <td>
-{% if paper.url.size > 1 %}
-<a href="{{ paper.url }}" target="_blank">Video</a>
-{% endif %}
-
-</td>
-</tr>
-{% endif %}
-
-
-{% endfor %}
-</tbody>
-</table>
-
-<br><br><br>
-
-<table class="table table-striped">
-<thead>
-     <tr>
-          <th> Poster Presentations (PDF) </th>
-          <th>Authors</th>
-          <th>Track</th>
-          <th>Video</th>
-</thead>
-<tbody> -->
-
-<tr></tr>
-{% for paper in site.data.papers %}
-<tr>
-
-<td>
-  <span><b>{{ paper.title }}</b></span>
-
-</td>
-
-<br>
-
-<td>
-{{ paper.authors }}
-</td>
-
-<td>
-  <a href="{{ paper.link }}">{{ paper.link }}</a>
-</td>
-
-</tr>
+<h3>Accepted Papers</h3>
 <br><br>
 
+<center>
+<div class="row justify-content-center">
 
-{% endfor %}
-</tbody>
-</table>
+<div class="paper text-center">
+{%- for paper in site.data.papers -%}
+	<h3>{{ paper.title }}</h3>
+	<ul>
+		<li><b>{{ paper.authors }}</b></li>
+		<li><a href="{{ paper.link }}">{{ paper.link }}</a></li>
 
-<!-- <tr></tr>
-{% for paper in session.papers %}
-
-{% if paper.kind == "poster" %}
-<tr>
-
-<td>
-  <span><b><a href="papers/43_task_oriented_slot_based_cumul.pdf">Dynamics Generalisation with Behaviour Foundation Models</a></b></span>
-
-
-</td>
-
-
-<td>
-{{ paper.authors }}
-</td>
-
-</tr>
-{% endif %}
-
-
-
-{% endfor %}
-</tbody>
-</table> -->
-
-
-
-
-
-<!-- 
+	</ul>
+{%- endfor -%}
 </div>
-{% endfor %}
+</div>
+</center>
 
-</div> -->
+<!-- <div class="row justify-content-center"> -->
+
+
+
+<!--   <div class="col">
+	{% if layout.video and page.live != true %}
+    <div id="presentation-embed-{{ page.slides_live_id }}" class="slp"></div>
+    <script src='https://slideslive.com/embed_presentation.js'></script>
+    <script>
+      embed = new SlidesLiveEmbed('presentation-embed-{{ page.slides_live_id }}', {
+      presentationId: '{{ page.slides_live_id }}',
+      autoPlay: false, // change to true to autoplay the embedded presentation
+      verticalEnabled: true,
+      allowHiddenControlsWhenPaused: true,
+      zoomRatio: 0.25,
+      hideTitle: true,
+      });
+    </script>
+    {% elsif page.live %}
+    <div class="text-center"><i>Please note that this talk is NOT pre-recorded and will be streamed live.</i></div>
+    {% else %}
+    <div class="text-center"><i>Video coming soon!</i></div>
+	{% endif %}
+  </div> -->
+  
+<!--   <div class="col">
+	{% if layout.chat %}
+    <div class="rocket">
+      <iframe frameborder="0" src="https://iclr.rocket.chat/channel/{{ page.rocket_id }}?layout=embedded" width="100%" height="680px"></iframe>
+    </div>
+    {% else %}
+    <div class="text-center"><i>Chat coming soon!</i></div>
+	{% endif %}
+  </div> -->
+</div>
